@@ -1,0 +1,32 @@
+.button {
+    width: 75px;
+    height: 30px;
+}
+
+.color1 {
+    background-color: rgba(223, 228, 210, 0.78);
+}
+
+.color2 {
+    background-color: rgba(221, 190, 172, 0.78);
+}
+
+.color3 {
+    background-color: rgba(182, 153, 136, 0.78);
+}
+
+.color4 {
+    background-color: rgba(144, 101, 101, 0.78);
+}
+
+.color5 {
+    background-color: rgba(107, 83, 68, 0.78);
+}
+
+.color-text1 {
+    color: rgba(223, 228, 210, 255);
+}
+
+.color-text2 {
+    color: rgb(210, 210, 210);
+}

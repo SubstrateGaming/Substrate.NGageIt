@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/SubstrateGaming/NGageIt/Stylesheet.uss?fileID=7433441132597879392&amp;guid=9ebcfe32c5e0eb14f9af505822eb3c81&amp;type=3#Stylesheet" />
+    <ui:VisualElement style="height: 448px; flex-grow: 1; justify-content: flex-start; align-items: stretch;">
+        <ui:VisualElement name="Container" style="height: 96%; flex-basis: 20%; bottom: auto; justify-content: flex-start; align-items: stretch; flex-direction: column; left: 2%; top: 2%; right: 2%; width: auto; position: absolute;">
+            <ui:VisualElement name="Header" class="color5" style="width: 100%; height: 15%; -unity-text-align: upper-left; align-items: center; justify-content: flex-start; flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement name="LeftHeader" style="width: 30%; height: 100%; left: 0;" />
+                <ui:VisualElement name="CenterHeader" style="-unity-text-align: upper-center; width: 60%; height: 100%; color: rgb(255, 255, 255); justify-content: center;">
+                    <ui:Label text="NGageIt" display-tooltip-when-elided="true" class="color-text1" style="-unity-font-definition: url(&apos;project://database/Assets/SubstrateGaming/NGageIt/Fonts/Dimension%20SDF.asset?fileID=11400000&amp;guid=03fbe6e650c6e304d8dcc6cff97ca198&amp;type=2#Dimension SDF&apos;); -unity-font: url(&apos;project://database/Assets/SubstrateGaming/NGageIt/Fonts/Dimension.otf?fileID=12800000&amp;guid=762359edbfb9a134287063604f35ad16&amp;type=3#Dimension&apos;); font-size: 32px;" />
+                    <ui:Label text="Substrate Gaming" display-tooltip-when-elided="true" class="color-text2" style="-unity-text-align: upper-center; -unity-font: url(&apos;project://database/Assets/SubstrateGaming/NGageIt/Fonts/NexaHeavy.otf?fileID=12800000&amp;guid=10455998876e45a40b1bec81cbaec26a&amp;type=3#NexaHeavy&apos;); -unity-font-definition: url(&apos;project://database/Assets/SubstrateGaming/NGageIt/Fonts/NexaHeavy%20SDF.asset?fileID=11400000&amp;guid=5b1f3f9ed729aa3449e012774d265495&amp;type=2#NexaHeavy SDF&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="RightHeader" style="width: 30%; height: 100%; left: auto; right: 0; align-items: center; justify-content: center;">
+                    <ui:VisualElement name="ConnectImg" style="width: 20px; height: 20px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Body" style="width: 100%; height: 70%; justify-content: center; align-items: center;" />
+            <ui:VisualElement name="Footer" class="color5" style="width: 100%; height: 15%; flex-direction: row;">
+                <ui:VisualElement name="LeftFooter" style="width: 30%; height: 100%; left: 0;" />
+                <ui:VisualElement name="CenterFooter" style="-unity-text-align: upper-center; width: 60%; height: 100%; color: rgb(255, 255, 255); justify-content: center;">
+                    <ui:VisualElement style="width: 100%; height: 100%; justify-content: center; align-items: center;">
+                        <ui:Label display-tooltip-when-elided="true" name="BlockHashTxt" class="color-text2" style="align-items: center; -unity-font-definition: url(&apos;project://database/Assets/SubstrateGaming/NGageIt/Fonts/NexaHeavy%20SDF.asset?fileID=11400000&amp;guid=5b1f3f9ed729aa3449e012774d265495&amp;type=2#NexaHeavy SDF&apos;); -unity-font: url(&apos;project://database/Assets/SubstrateGaming/NGageIt/Fonts/NexaHeavy.otf?fileID=12800000&amp;guid=10455998876e45a40b1bec81cbaec26a&amp;type=3#NexaHeavy&apos;); font-size: 10px; white-space: normal; width: 75%; height: 75%;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="RightFooter" style="width: 30%; height: 100%; left: auto; right: 0; align-items: center; justify-content: center;">
+                    <ui:VisualElement name="ConnectImg" style="width: 20px; height: 20px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
